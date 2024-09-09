@@ -1,0 +1,7 @@
+.drawing-canvas {
+  border: 1px solid #000;
+  cursor: crosshair;
+  flex: 1; /* Makes the canvas take up remaining space */
+  width: 100%; /* Ensures canvas stretches fully */
+  height: 100%; /* Ensures canvas takes full height of container */
+}

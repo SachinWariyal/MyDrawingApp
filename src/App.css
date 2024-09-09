@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.toolbar {
+  width: 220px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toolbar button {
+  padding: 8px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.toolbar button.active-tool {
+  background-color: #007bff;
+  color: white;
+}
+
+.collaborators {
+  position: absolute;
+  bottom: 10px;
+  left: 230px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
